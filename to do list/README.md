@@ -18,4 +18,4 @@ npm run dev
 - Filtrar por nombre de la tarea
 
 ## Image preview
-![Preview](https://raw.githubusercontent.com/isromar/vue/main/preview.JPG)
+![Preview](https://raw.githubusercontent.com/isromar/vue/main/to%20do%20list/preview.JPG)
