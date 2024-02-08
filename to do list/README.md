@@ -12,11 +12,12 @@ npm run dev
 ```
 
 ## Funcionalidades
-- Añadir nuevas tareas con diferentes prioridades
+- Añadir nuevas tareas con diferentes prioridades y fecha
 - Cambiar prioridad de la tarea
 - Marcar tareas como completadas
-- Lista por tareas totales, completadas o sin terminar
+- Listar por tareas totales, completadas o  activas
 - Eliminar tareas de la lista
+- Filtrar por nombre de la tarea
 
 ## Image preview
 ![Preview](https://raw.githubusercontent.com/isromar/vue/main/preview.JPG)
