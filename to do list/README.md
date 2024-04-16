@@ -1,4 +1,4 @@
-# To-Do List App
+# To-Do List Web App
 Este es un proyecto de una lista de tareas (to-do list) desarrollado con Vue Vite 3.
 
 ## Requisitos
