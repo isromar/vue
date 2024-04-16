@@ -1,5 +1,5 @@
 # To-Do List App
-Este es un proyecto simple de una lista de tareas (to-do list) desarrollado con Vue Vite 3.
+Este es un proyecto de una lista de tareas (to-do list) desarrollado con Vue Vite 3.
 
 ## Requisitos
 Es necesario tener instalado node
