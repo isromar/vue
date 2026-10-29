@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # To-Do List App
 
 Aplicación web de lista de tareas desarrollada con Vue 3 y Vite. Presenta un panel adaptable a móvil y escritorio para organizar tareas por prioridad, fecha y estado, y conserva la lista en el navegador.
@@ -26,6 +27,10 @@ Aplicación web de lista de tareas desarrollada con Vue 3 y Vite. Presenta un pa
 - Vite
 - Bootstrap 5
 - JavaScript, HTML y CSS
+=======
+# To-Do List Web App
+Este es un proyecto de una lista de tareas (to-do list) desarrollado con Vue Vite 3.
+>>>>>>> 2f4047ecba4103ae6bd5657e1f25dd0a4517ddc6
 
 ## Requisitos
 
@@ -42,6 +47,7 @@ npm run dev
 
 Vite mostrará en la terminal la dirección local para abrir la aplicación en el navegador. Para detener el servidor, pulsa `Ctrl+C` en esa terminal.
 
+<<<<<<< HEAD
 ## Generar la versión de producción
 
 ```sh
@@ -76,3 +82,7 @@ Las tareas se guardan en `localStorage`, dentro del navegador. Por eso:
 - borrar los datos del sitio en el navegador puede eliminar la lista.
 
 La aplicación no necesita una base de datos ni un backend para sus funciones actuales. Para añadir cuentas, sincronización o almacenamiento compartido haría falta incorporar una API/backend y una base de datos o un servicio equivalente.
+=======
+## Image preview
+![Preview](https://raw.githubusercontent.com/isromar/vue/main/to%20do%20list/preview.JPG)
+>>>>>>> 2f4047ecba4103ae6bd5657e1f25dd0a4517ddc6
