@@ -1,30 +1,11 @@
 <script setup>
-import { ref } from 'vue'
-import Contenido from './components/Contenido.vue';
-import Titulos from './components/Titulos.vue';
-const listaTareas = ref([])
-const listaTareasOld = ref([])
+import Contenido from './components/Contenido.vue'
 
-//Nuevo requisito "que se use 'emit'": Se ha creado esta función que usa 'emit' desde el componente 'Contenido'
-function funcionQueBorraTodasLasTareas(){
-  localStorage.clear();
-  alert("Se han borrado todas las tareas")
-  location.reload()
+const notificarListaBorrada = () => {
+  alert('Se han borrado todas las tareas.')
 }
 </script>
 
 <template>
-  <main>
-    <div class="container">
-      <Titulos titular="Aplicación para añadir tareas"></Titulos>
-      <Contenido @eventoEmitido="funcionQueBorraTodasLasTareas"></Contenido>
-    </div>
-  </main>
+  <Contenido @eventoEmitido="notificarListaBorrada" />
 </template>
-
-<style scope>
-html,
-main {
-  background-color: black;
-}
-</style>
